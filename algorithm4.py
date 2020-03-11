@@ -9,7 +9,6 @@ def main():
 
     startTime = time.time();
     for i in range(len(array)):
-        print(i);
         thisSum +=array[i];
             
         if thisSum > maxSum:
